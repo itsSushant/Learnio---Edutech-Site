@@ -1,0 +1,50 @@
+/*------ Section: Download App ------*/
+.download-app .column:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+.download-app .column:nth-child(2) {
+  padding: 0 2rem;
+}
+.download-app img {
+  display: block;
+  width: 45%;
+}
+.app-feature {
+  border-bottom: 1.5px dashed rgba(var(--grad-color-1), 0.4);
+}
+.app-feature:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.app-feature div {
+  display: flex;
+  gap: 2rem;
+}
+.app-feature p {
+  margin-bottom: 1.5rem;
+}
+.download-app .fas {
+  display: inline-block;
+  background-color: var(--white-shade-2);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--base-shade-1);
+}
+.download-app h3 {
+  display: inline-block;
+}
+.download-btns {
+  display: flex;
+}
+.download-btns a {
+  display: inline;
+  text-align: center;
+}
+.download-btns a img {
+  display: inline-block;
+  width: 70%;
+}
